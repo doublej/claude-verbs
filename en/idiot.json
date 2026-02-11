@@ -4,6 +4,7 @@
   "description": "Presidential idiot spinner verbs",
   "author": "Jurre-Jan Smit",
   "github": "doublej",
+  "language": "en_GB",
   "config": {
     "showTurnDuration": false,
     "spinnerVerbs": {

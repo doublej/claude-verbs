@@ -4,6 +4,7 @@
   "description": "Jiskefet-themed Dutch spinner verbs",
   "author": "JJ",
   "github": "jurrejan",
+  "language": "nl_NL",
   "config": {
     "showTurnDuration": false,
     "spinnerVerbs": {

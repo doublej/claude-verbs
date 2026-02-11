@@ -4,6 +4,7 @@
   "description": "American late-night show themed verbs",
   "author": "JJ",
   "github": "jurrejan",
+  "language": "en_GB",
   "config": {
     "showTurnDuration": false,
     "spinnerVerbs": {

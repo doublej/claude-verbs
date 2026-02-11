@@ -4,7 +4,7 @@
   "title": "Spinner Verb Set",
   "description": "A themed spinner verb set for Claude Code",
   "type": "object",
-  "required": ["name", "description", "author", "github", "config"],
+  "required": ["name", "description", "author", "github", "language", "config"],
   "additionalProperties": false,
   "properties": {
     "$schema": {
@@ -27,6 +27,11 @@
       "type": "string",
       "description": "GitHub username of the author",
       "pattern": "^[a-zA-Z\\d](?:[a-zA-Z\\d]|-(?=[a-zA-Z\\d])){0,38}$"
+    },
+    "language": {
+      "type": "string",
+      "description": "Locale code matching URL format (e.g. en_GB, nl_NL)",
+      "pattern": "^[a-z]{2}_[A-Z]{2}$"
     },
     "config": {
       "type": "object",

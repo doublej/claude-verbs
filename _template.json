@@ -4,6 +4,7 @@
   "description": "A short description of your theme",
   "author": "Your Name",
   "github": "your-github-username",
+  "language": "en_GB",
   "config": {
     "spinnerVerbs": {
       "mode": "replace",

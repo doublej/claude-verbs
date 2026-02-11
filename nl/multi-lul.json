@@ -4,6 +4,7 @@
   "description": "Jiskefet Multi-Lul reclamebureau spinner verbs",
   "author": "JJ",
   "github": "jurrejan",
+  "language": "nl_NL",
   "config": {
     "showTurnDuration": false,
     "spinnerVerbs": {
