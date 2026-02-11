@@ -1,0 +1,45 @@
+{
+  "$schema": "../schema.json",
+  "name": "jiskefet",
+  "description": "Jiskefet-themed Dutch spinner verbs",
+  "author": "JJ",
+  "github": "jurrejan",
+  "config": {
+    "showTurnDuration": false,
+    "spinnerVerbs": {
+      "mode": "replace",
+      "verbs": [
+        "Petor roepen",
+        "Peter roepen",
+        "De knik in het geluid melden",
+        "Naar B wegmoduleren",
+        "Een elleboog op tafel zetten",
+        "Een jack-in-the-box doen",
+        "Ham & eggs bestellen",
+        "Freddy een koffie aanbieden",
+        "Een tropical drink bestellen",
+        "Goedemorgen deze morgen zeggen",
+        "Goeiesmorgens zeggen",
+        "Over de tramhalte beginnen",
+        "Bij ons op de commando's herinneren",
+        "Vragen wat jij d'r op hebt",
+        "Uit stilstand vertrekken",
+        "Toedeledoki zeggen",
+        "Sjesis roepen",
+        "Goeiemiddag zeggen",
+        "Roeptoeteren: heel geen vogel",
+        "Volhouden: wél degelijk een vogel",
+        "Alles waar 'te' voor staat opsommen",
+        "Tequila uitzonderen",
+        "Natte benen krijgen",
+        "Stiften pakken",
+        "Zalf smeren",
+        "Haar uit m'n glas halen",
+        "Scheepskamelen noemen",
+        "Naar het inbouwcentrum gaan",
+        "Een Wiedergutmachungsschnitzel bestellen",
+        "Over der Jugend beginnen"
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/doublej/claude-verbs/schema.json",
+  "title": "Spinner Verb Set",
+  "description": "A themed spinner verb set for Claude Code",
+  "type": "object",
+  "required": ["name", "description", "author", "github", "config"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "Unique identifier for the verb set (matches filename without .json)",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of the verb set theme"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author of the verb set"
+    },
+    "github": {
+      "type": "string",
+      "description": "GitHub username of the author",
+      "pattern": "^[a-zA-Z\\d](?:[a-zA-Z\\d]|-(?=[a-zA-Z\\d])){0,38}$"
+    },
+    "config": {
+      "type": "object",
+      "required": ["spinnerVerbs"],
+      "additionalProperties": false,
+      "properties": {
+        "showTurnDuration": {
+          "type": "boolean",
+          "description": "Whether to show turn duration in the spinner"
+        },
+        "spinnerVerbs": {
+          "type": "object",
+          "required": ["mode", "verbs"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": ["replace", "append"],
+              "description": "Whether to replace or append to the default verbs"
+            },
+            "verbs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "description": "List of spinner verb strings"
+            }
+          }
+        }
+      }
+    }
+  }
+}

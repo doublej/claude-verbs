@@ -1,0 +1,13 @@
+{
+  "$schema": "./schema.json",
+  "name": "your-set-name",
+  "description": "A short description of your theme",
+  "author": "Your Name",
+  "github": "your-github-username",
+  "config": {
+    "spinnerVerbs": {
+      "mode": "replace",
+      "verbs": ["I'm doing first thing", "I'm doing second thing"]
+    }
+  }
+}
