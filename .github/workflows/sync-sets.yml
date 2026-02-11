@@ -1,0 +1,57 @@
+name: Sync Sets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'en/**'
+      - 'nl/**'
+      - 'schema.json'
+      - '_template.json'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - repo: doublej/claude-verbs-cli
+            dest: sets
+            extras: schema.json _template.json
+          - repo: doublej/claude-verbs-website
+            dest: src/lib/data/sets
+            extras: schema.json
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout target
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.SYNC_TOKEN }}
+          path: target
+
+      - name: Sync sets
+        run: |
+          rm -rf target/${{ matrix.dest }}/en target/${{ matrix.dest }}/nl
+          cp -r source/en source/nl target/${{ matrix.dest }}/
+          for f in ${{ matrix.extras }}; do
+            cp source/$f target/${{ matrix.dest }}/$f
+          done
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: target
+          token: ${{ secrets.SYNC_TOKEN }}
+          branch: sync-sets
+          delete-branch: true
+          title: 'sync: update sets from community repo'
+          body: |
+            Automated sync from [claude-verbs](https://github.com/doublej/claude-verbs) @ ${{ github.sha }}.
+
+            Triggered by: ${{ github.event.head_commit.message }}
+          commit-message: 'sync: update sets from community repo'

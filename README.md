@@ -12,18 +12,17 @@ Install and manage sets with [`claude-verbs-cli`](https://github.com/doublej/cla
 ├── en/                  # English sets
 │   ├── countries/       # Country-themed comedy sets
 │   └── *.json
-├── nl/                  # Dutch sets
-└── united-states/       # US pop-culture sets
+└── nl/                  # Dutch sets
 ```
 
 ## Browse sets
 
-Each `.json` file is a self-contained verb set. Open any file to see the verbs, or install the CLI and run:
+Each `.json` file is a self-contained verb set. Open any file to see the verbs, or run the CLI directly:
 
 ```sh
-claude-verbs list
-claude-verbs show <name>
-claude-verbs install <name>
+bunx github:doublej/claude-verbs-cli list
+bunx github:doublej/claude-verbs-cli show <name>
+bunx github:doublej/claude-verbs-cli install <name>
 ```
 
 ## Contributing
