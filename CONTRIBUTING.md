@@ -39,6 +39,7 @@ Edit the file — the filename (without `.json`) must match the `name` field:
   "description": "A short description of your theme",
   "author": "Your Name",
   "github": "your-github-username",
+  "language": "en_GB",
   "config": {
     "spinnerVerbs": {
       "mode": "replace",
@@ -50,6 +51,8 @@ Edit the file — the filename (without `.json`) must match the `name` field:
   }
 }
 ```
+
+Set `language` to a locale code matching the directory (e.g. `en_GB` for `en/`, `nl_NL` for `nl/`, `de_DE` for `de/`).
 
 ### 4. Validate
 
@@ -76,7 +79,10 @@ CI will validate your set automatically.
 
 - Filename must match the `name` field (kebab-case, lowercase)
 - `github` must be your GitHub username (used for attribution)
+- `language` must be a valid locale code (e.g. `en_GB`, `nl_NL`) matching the directory
 - No duplicate verbs within a set
 - Must pass `schema.json` validation
 - Keep it respectful — sets with offensive content will be rejected
 - `mode` should be `"replace"` (replaces default verbs) or `"append"` (adds to defaults)
+
+Browse existing sets at [claudeverbs.com](https://claudeverbs.com) for inspiration.
