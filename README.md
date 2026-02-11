@@ -4,16 +4,20 @@ Community-contributed spinner verb sets for [Claude Code](https://docs.anthropic
 
 Install and manage sets with [`claude-verbs-cli`](https://github.com/doublej/claude-verbs-cli).
 
+Browse all sets at [claudeverbs.com](https://claudeverbs.com).
+
 ## Structure
 
 ```
 ├── schema.json          # JSON Schema all sets must pass
 ├── _template.json       # Starting point for new sets
-├── en/                  # English sets
+├── en/                  # English sets (en_GB)
 │   ├── countries/       # Country-themed comedy sets
 │   └── *.json
-└── nl/                  # Dutch sets
+└── nl/                  # Dutch sets (nl_NL)
 ```
+
+Each set includes a `language` field with a locale code (e.g. `en_GB`, `nl_NL`, `de_DE`).
 
 ## Browse sets
 
@@ -21,9 +25,12 @@ Each `.json` file is a self-contained verb set. Open any file to see the verbs, 
 
 ```sh
 bunx github:doublej/claude-verbs-cli list
+bunx github:doublej/claude-verbs-cli list --language nl
 bunx github:doublej/claude-verbs-cli show <name>
 bunx github:doublej/claude-verbs-cli install <name>
 ```
+
+For more sets, visit [claudeverbs.com](https://claudeverbs.com).
 
 ## Contributing
 
