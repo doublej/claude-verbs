@@ -23,7 +23,17 @@ for (const entry of readdirSync(".")) {
 		);
 		errors++;
 	} else {
-		console.log("OK:", entry);
+		const verbs: string[] = data.config?.spinnerVerbs?.verbs ?? [];
+		const dupes = verbs.filter((v: string, i: number) => verbs.indexOf(v) !== i);
+		if (verbs.length !== 50) {
+			console.error(`FAIL: ${entry} — expected 50 verbs, got ${verbs.length}`);
+			errors++;
+		} else if (dupes.length > 0) {
+			console.error(`FAIL: ${entry} — duplicate verbs: ${dupes.join(", ")}`);
+			errors++;
+		} else {
+			console.log("OK:", entry);
+		}
 	}
 }
 
