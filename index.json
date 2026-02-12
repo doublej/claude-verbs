@@ -104,14 +104,6 @@
     "verbCount": 50
   },
   {
-    "name": "telekids",
-    "description": "Telekids Dutch children's TV spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "nl_NL",
-    "verbCount": 50
-  },
-  {
     "name": "uk-peep-show",
     "description": "Peep Show inner monologue spinner verbs",
     "author": "JJ",
