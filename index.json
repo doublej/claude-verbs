@@ -1,10 +1,42 @@
 [
   {
+    "name": "br-chaves",
+    "description": "Chaves vecindad comedy spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "pt_BR",
+    "verbCount": 50
+  },
+  {
+    "name": "de-dinner-for-one",
+    "description": "Dinner for One New Year's Eve sketch spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "de_DE",
+    "verbCount": 50
+  },
+  {
+    "name": "fr-kaamelott",
+    "description": "Kaamelott Arthurian comedy spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "fr_FR",
+    "verbCount": 50
+  },
+  {
     "name": "jiskefet",
     "description": "Jiskefet-themed Dutch spinner verbs",
     "author": "JJ",
     "github": "jurrejan",
     "language": "nl_NL",
+    "verbCount": 50
+  },
+  {
+    "name": "jp-gaki-no-tsukai",
+    "description": "Gaki no Tsukai batsu game spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "ja_JP",
     "verbCount": 50
   },
   {
