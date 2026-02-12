@@ -1,0 +1,27 @@
+{
+  "$schema": "./schema.json",
+  "name": "en-duke-nukem-3d",
+  "displayName": "Duke Nukem 3D",
+  "category": "gaming",
+  "description": "Duke Nukem 3D spinner verbs",
+  "author": "David",
+  "github": "davidvandriel",
+  "language": "en_GB",
+  "config": {
+    "spinnerVerbs": {
+      "verbs": [
+        "It's time to kick ass and chew bubble gum... and I'm all outta gum.",
+        "Hail to the king, baby!",
+        "Come get some!",
+        "Your face, your ass—what's the difference?",
+        "You're an inspiration for birth control.",
+        "Aahhh... much better.",
+        "All aboard the midtown express to HELL!",
+        "There's only two ways this can end. And in both of them, you die",
+        "Damn, those aliens bastards are gonna pay for shooting up my ride!",
+        "Always bet on Duke.",
+        "Now you see me, now you're dead"
+      ]
+    }
+  }
+}
