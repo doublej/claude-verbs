@@ -62,10 +62,7 @@
           "properties": {
             "mode": {
               "type": "string",
-              "enum": [
-                "replace",
-                "append"
-              ],
+              "enum": ["replace", "append"],
               "description": "Whether to replace or append to the default verbs"
             },
             "verbs": {
