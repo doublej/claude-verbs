@@ -2,9 +2,22 @@
 
 Community-contributed spinner verb sets for [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
-Install and manage sets with [`claude-verbs-cli`](https://github.com/doublej/claude-verbs-cli).
+`claude-verbs-cli` is the install tool. Use `bunx` commands to list and install sets:
 
-Browse all sets at [claudeverbs.com](https://claudeverbs.com).
+```sh
+bunx github:doublej/claude-verbs-cli list
+bunx github:doublej/claude-verbs-cli install <name>
+```
+
+Browse sets at [claudeverbs.com](https://claudeverbs.com).
+
+## Submission Home
+
+This repository is the only place to submit new verb sets.
+
+- Submit via pull request to [doublej/claude-verbs](https://github.com/doublej/claude-verbs)
+- Follow [CONTRIBUTING.md](CONTRIBUTING.md)
+- Include the author manifest in your PR description (GitHub profile, top 3 projects, generic description)
 
 ## Structure
 
@@ -40,23 +53,6 @@ Each set includes `language` (locale code), `displayName` (human-readable title)
 | `us-portal` | Portal | en_US | game |
 | `us-pulp-fiction` | Pulp Fiction | en_US | movie |
 | `us-snl` | Saturday Night Live | en_US | tv-show |
-
-## Browse sets
-
-Each `.json` file is a self-contained verb set. Open any file to see the verbs, or run the CLI directly:
-
-```sh
-bunx github:doublej/claude-verbs-cli list
-bunx github:doublej/claude-verbs-cli list --language nl
-bunx github:doublej/claude-verbs-cli show <name>
-bunx github:doublej/claude-verbs-cli install <name>
-```
-
-For more sets, visit [claudeverbs.com](https://claudeverbs.com).
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a new set via PR.
 
 ## License
 
