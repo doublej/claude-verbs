@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "us-billie-eilish",
   "description": "Billie Eilish-inspired moody spinner verbs",
-  "author": "Codex",
+  "author": "JJ",
   "github": "jurrejan",
   "language": "en_US",
   "config": {
