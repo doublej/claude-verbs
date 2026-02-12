@@ -51,6 +51,7 @@ Each set includes `language` (locale code), `displayName` (human-readable title)
 | `telekids` | Telekids | nl_NL | entertainment |
 | `uk-peep-show` | Peep Show | en_GB | entertainment |
 | `us-billie-eilish` | Billie Eilish | en_US | music |
+| `us-the-office` | The Office | en_US | entertainment |
 | `us-breaking-bad` | Breaking Bad | en_US | entertainment |
 | `us-portal` | Portal | en_US | gaming |
 | `us-pulp-fiction` | Pulp Fiction | en_US | entertainment |
