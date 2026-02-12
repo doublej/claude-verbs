@@ -1,0 +1,31 @@
+{
+  "$schema": "./schema.json",
+  "name": "en-test-flow",
+  "displayName": "Test Flow",
+  "category": "original",
+  "description": "Temporary set to test the PR validation flow",
+  "author": "JJ",
+  "github": "doublej",
+  "language": "en_GB",
+  "config": {
+    "spinnerVerbs": {
+      "verbs": [
+        "Validating schema",
+        "Checking verb count",
+        "Running CI pipeline",
+        "Testing pull request flow",
+        "Verifying JSON structure",
+        "Scanning for duplicates",
+        "Linting verb set",
+        "Compiling results",
+        "Asserting correctness",
+        "Finalising checks",
+        "Merging confidence",
+        "Deploying verification",
+        "Orchestrating tests",
+        "Confirming integrity",
+        "Completing flow test"
+      ]
+    }
+  }
+}
