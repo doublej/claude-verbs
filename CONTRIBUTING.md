@@ -34,10 +34,12 @@ Edit the file — the filename (without `.json`) must match the `name` field:
 {
   "$schema": "./schema.json",
   "name": "your-set-name",
+  "displayName": "Your Set Name",
+  "category": "tv-show",
   "description": "A short description of your theme",
   "author": "Your Name",
   "github": "your-github-username",
-  "language": "en_GB",
+  "language": "en_US",
   "config": {
     "spinnerVerbs": {
       "mode": "replace",
@@ -50,7 +52,11 @@ Edit the file — the filename (without `.json`) must match the `name` field:
 }
 ```
 
-Set `language` to a locale code (e.g. `en_GB`, `nl_NL`, `de_DE`). Each set must contain exactly 50 unique verbs.
+- `displayName` — human-readable title shown in listings (e.g. "Saturday Night Live")
+- `category` — one of `tv-show`, `movie`, `music`, `game`, or `original`
+- `language` — locale code (e.g. `en_US`, `nl_NL`, `de_DE`)
+
+Each set must contain exactly 50 unique verbs.
 
 ### 4. Validate
 
@@ -75,8 +81,10 @@ CI will validate your set automatically.
 ## Rules
 
 - Filename must match the `name` field (kebab-case, lowercase)
+- `displayName` must be a human-readable title for your set
+- `category` must be one of: `tv-show`, `movie`, `music`, `game`, `original`
 - `github` must be your GitHub username (used for attribution)
-- `language` must be a valid locale code (e.g. `en_GB`, `nl_NL`)
+- `language` must be a valid locale code (e.g. `en_US`, `nl_NL`)
 - Exactly 50 unique verbs per set — no duplicates
 - Must pass `schema.json` validation
 - Keep it respectful — sets with offensive content will be rejected

@@ -1,6 +1,8 @@
 {
   "$schema": "./schema.json",
   "name": "my-theme-name",
+  "displayName": "My Theme Name",
+  "category": "tv-show",
   "description": "A short description of your verb set theme",
   "author": "Your Name",
   "github": "your-github-username",
