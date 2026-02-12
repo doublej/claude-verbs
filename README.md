@@ -22,9 +22,11 @@ This repository is the only place to submit new verb sets.
 ## Structure
 
 ```
-├── schema.json          # JSON Schema all sets must pass
-├── _template.json       # Starting point for new sets
-└── *.json               # Verb set files (flat, no subdirectories)
+└── sets/
+    ├── schema.json      # JSON Schema all sets must pass
+    ├── _template.json   # Starting point for new sets
+    ├── index.json       # Set index metadata
+    └── *.json           # Verb set files (flat, no subdirectories)
 ```
 
 Each set includes `language` (locale code), `displayName` (human-readable title), and `category` (`tv-show`, `movie`, `music`, `game`, or `original`).

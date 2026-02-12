@@ -25,15 +25,15 @@ cd claude-verbs
 
 ### 2. Create your set file
 
-Copy the template into the repository root:
+Copy the template inside `sets/`:
 
 ```sh
-cp _template.json your-set-name.json
+cp sets/_template.json sets/your-set-name.json
 ```
 
 ### 3. Fill in your verbs
 
-Edit the file. The filename (without `.json`) must match the `name` field:
+Edit `sets/your-set-name.json`. The filename (without `.json`) must match the `name` field:
 
 ```json
 {
@@ -107,7 +107,7 @@ bun run validate.ts
 
 ```sh
 git checkout -b add-your-set-name
-git add your-set-name.json
+git add sets/your-set-name.json
 git commit -m "add: your-set-name verb set"
 git push -u origin add-your-set-name
 gh pr create
@@ -123,7 +123,8 @@ CI validates your set automatically.
 - `github` must be your GitHub username (for attribution)
 - `language` must be a valid locale code (example: `en_US`, `nl_NL`)
 - Exactly 50 unique verbs per set (no duplicates)
-- Must pass `schema.json` validation
+- Set file must live in `sets/`
+- Must pass `sets/schema.json` validation
 - Include an author manifest in the PR description
 - Keep content respectful; offensive sets are rejected
 - `mode` should be `"replace"` or `"append"`

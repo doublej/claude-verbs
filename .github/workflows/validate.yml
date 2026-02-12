@@ -3,7 +3,9 @@ name: Validate Sets
 on:
   pull_request:
     paths:
-      - '*.json'
+      - 'sets/*.json'
+      - 'validate.ts'
+      - '.github/workflows/validate.yml'
 
 jobs:
   validate:

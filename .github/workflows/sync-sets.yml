@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - '*.json'
+      - 'sets/*.json'
+      - '.github/workflows/sync-sets.yml'
 
 jobs:
   sync:
@@ -34,13 +35,13 @@ jobs:
       - name: Sync sets
         run: |
           rm -rf target/${{ matrix.dest }}/*.json
-          for f in source/*.json; do
+          for f in source/sets/*.json; do
             name=$(basename "$f")
             case "$name" in schema.json|_template.json|index.json) continue;; esac
             cp "$f" target/${{ matrix.dest }}/
           done
           for f in ${{ matrix.extras }}; do
-            cp source/$f target/${{ matrix.dest }}/$f
+            cp source/sets/$f target/${{ matrix.dest }}/$f
           done
 
       - name: Create PR
