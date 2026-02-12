@@ -3,9 +3,7 @@ name: Validate Sets
 on:
   pull_request:
     paths:
-      - 'en/**'
-      - 'nl/**'
-      - 'schema.json'
+      - '*.json'
 
 jobs:
   validate:

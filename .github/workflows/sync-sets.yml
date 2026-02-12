@@ -4,10 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'en/**'
-      - 'nl/**'
-      - 'schema.json'
-      - '_template.json'
+      - '*.json'
 
 jobs:
   sync:
@@ -36,8 +33,12 @@ jobs:
 
       - name: Sync sets
         run: |
-          rm -rf target/${{ matrix.dest }}/en target/${{ matrix.dest }}/nl
-          cp -r source/en source/nl target/${{ matrix.dest }}/
+          rm -rf target/${{ matrix.dest }}/*.json
+          for f in source/*.json; do
+            name=$(basename "$f")
+            case "$name" in schema.json|_template.json|index.json) continue;; esac
+            cp "$f" target/${{ matrix.dest }}/
+          done
           for f in ${{ matrix.extras }}; do
             cp source/$f target/${{ matrix.dest }}/$f
           done

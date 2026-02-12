@@ -24,6 +24,14 @@
     "verbCount": 50
   },
   {
+    "name": "telekids",
+    "description": "Telekids Dutch children's TV spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "nl_NL",
+    "verbCount": 50
+  },
+  {
     "name": "us-billie-eilish",
     "description": "Billie Eilish-inspired moody spinner verbs",
     "author": "Codex",
