@@ -56,7 +56,6 @@
         "spinnerVerbs": {
           "type": "object",
           "required": [
-            "mode",
             "verbs"
           ],
           "additionalProperties": false,

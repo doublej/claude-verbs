@@ -16,6 +16,9 @@ for (const entry of readdirSync(SETS_DIR)) {
 	if (skip.has(entry)) continue;
 	const filePath = join(SETS_DIR, entry);
 	const data = JSON.parse(readFileSync(filePath, "utf-8"));
+	if (data.config?.spinnerVerbs && !data.config.spinnerVerbs.mode) {
+		data.config.spinnerVerbs.mode = "replace";
+	}
 	if (!validate(data)) {
 		console.error("FAIL:", filePath, validate.errors);
 		errors++;
