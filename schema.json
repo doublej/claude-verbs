@@ -4,7 +4,16 @@
   "title": "Spinner Verb Set",
   "description": "A themed spinner verb set for Claude Code",
   "type": "object",
-  "required": ["name", "description", "author", "github", "language", "config"],
+  "required": [
+    "name",
+    "description",
+    "author",
+    "github",
+    "language",
+    "config",
+    "displayName",
+    "category"
+  ],
   "additionalProperties": false,
   "properties": {
     "$schema": {
@@ -35,7 +44,9 @@
     },
     "config": {
       "type": "object",
-      "required": ["spinnerVerbs"],
+      "required": [
+        "spinnerVerbs"
+      ],
       "additionalProperties": false,
       "properties": {
         "showTurnDuration": {
@@ -44,12 +55,18 @@
         },
         "spinnerVerbs": {
           "type": "object",
-          "required": ["mode", "verbs"],
+          "required": [
+            "mode",
+            "verbs"
+          ],
           "additionalProperties": false,
           "properties": {
             "mode": {
               "type": "string",
-              "enum": ["replace", "append"],
+              "enum": [
+                "replace",
+                "append"
+              ],
               "description": "Whether to replace or append to the default verbs"
             },
             "verbs": {
@@ -66,6 +83,21 @@
           }
         }
       }
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Human-readable display name"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "tv-show",
+        "movie",
+        "music",
+        "game",
+        "original"
+      ],
+      "description": "Content category"
     }
   }
 }

@@ -1,6 +1,8 @@
 {
   "$schema": "./schema.json",
   "name": "in-hera-pheri",
+  "displayName": "Hera Pheri",
+  "category": "movie",
   "description": "Hera Pheri Bollywood comedy spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

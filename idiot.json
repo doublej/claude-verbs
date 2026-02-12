@@ -1,6 +1,8 @@
 {
   "$schema": "./schema.json",
   "name": "idiot",
+  "displayName": "Idiot",
+  "category": "original",
   "description": "Presidential idiot spinner verbs",
   "author": "Jurre-Jan Smit",
   "github": "doublej",

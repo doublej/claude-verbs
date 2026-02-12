@@ -1,6 +1,8 @@
 {
   "$schema": "./schema.json",
   "name": "jp-gaki-no-tsukai",
+  "displayName": "Gaki no Tsukai",
+  "category": "tv-show",
   "description": "Gaki no Tsukai batsu game spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

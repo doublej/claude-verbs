@@ -1,6 +1,8 @@
 {
   "$schema": "./schema.json",
   "name": "jiskefet",
+  "displayName": "Jiskefet",
+  "category": "tv-show",
   "description": "Jiskefet-themed Dutch spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -1,154 +1,144 @@
-[
-  {
-    "name": "au-kath-and-kim",
-    "description": "Kath & Kim suburban satire spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_AU",
-    "verbCount": 50
-  },
-  {
-    "name": "br-chaves",
-    "description": "Chaves vecindad comedy spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "pt_BR",
-    "verbCount": 50
-  },
-  {
-    "name": "ca-letterkenny",
-    "description": "Letterkenny rural Ontario spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_CA",
-    "verbCount": 50
-  },
-  {
-    "name": "de-dinner-for-one",
-    "description": "Dinner for One New Year's Eve sketch spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "de_DE",
-    "verbCount": 50
-  },
-  {
-    "name": "es-camera-cafe",
-    "description": "Camera Café office break-room spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "es_ES",
-    "verbCount": 50
-  },
-  {
-    "name": "fr-kaamelott",
-    "description": "Kaamelott Arthurian comedy spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "fr_FR",
-    "verbCount": 50
-  },
-  {
-    "name": "in-hera-pheri",
-    "description": "Hera Pheri Bollywood comedy spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "hi_IN",
-    "verbCount": 50
-  },
-  {
-    "name": "jiskefet",
-    "description": "Jiskefet-themed Dutch spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "nl_NL",
-    "verbCount": 50
-  },
-  {
-    "name": "jp-gaki-no-tsukai",
-    "description": "Gaki no Tsukai batsu game spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "ja_JP",
-    "verbCount": 50
-  },
-  {
-    "name": "kr-infinite-challenge",
-    "description": "Infinite Challenge variety show spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "ko_KR",
-    "verbCount": 50
-  },
-  {
-    "name": "multi-lul",
-    "description": "Jiskefet Multi-Lul reclamebureau spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "nl_NL",
-    "verbCount": 50
-  },
-  {
-    "name": "rundfunk",
-    "description": "Dutch radio/TV studio chaos spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "nl_NL",
-    "verbCount": 50
-  },
-  {
-    "name": "telekids",
-    "description": "Telekids Dutch children's TV spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "nl_NL",
-    "verbCount": 50
-  },
-  {
-    "name": "uk-peep-show",
-    "description": "Peep Show inner monologue spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_GB",
-    "verbCount": 50
-  },
-  {
-    "name": "us-billie-eilish",
-    "description": "Billie Eilish-inspired moody spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_US",
-    "verbCount": 50
-  },
-  {
-    "name": "us-breaking-bad",
-    "description": "Breaking Bad chemistry drama spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_US",
-    "verbCount": 50
-  },
-  {
-    "name": "us-portal",
-    "description": "Portal puzzle adventure spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_US",
-    "verbCount": 50
-  },
-  {
-    "name": "us-pulp-fiction",
-    "description": "Pulp Fiction crime drama spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_US",
-    "verbCount": 50
-  },
-  {
-    "name": "us-snl",
-    "description": "Saturday Night Live-style sketch spinner verbs",
-    "author": "JJ",
-    "github": "jurrejan",
-    "language": "en_US",
-    "verbCount": 50
-  }
-]
+{
+  "sets": [
+    {
+      "name": "au-kath-and-kim",
+      "displayName": "Kath & Kim",
+      "language": "en_AU",
+      "category": "tv-show",
+      "file": "au-kath-and-kim.json"
+    },
+    {
+      "name": "br-chaves",
+      "displayName": "Chaves",
+      "language": "pt_BR",
+      "category": "tv-show",
+      "file": "br-chaves.json"
+    },
+    {
+      "name": "ca-letterkenny",
+      "displayName": "Letterkenny",
+      "language": "en_CA",
+      "category": "tv-show",
+      "file": "ca-letterkenny.json"
+    },
+    {
+      "name": "de-dinner-for-one",
+      "displayName": "Dinner for One",
+      "language": "de_DE",
+      "category": "tv-show",
+      "file": "de-dinner-for-one.json"
+    },
+    {
+      "name": "es-camera-cafe",
+      "displayName": "Cámera Café",
+      "language": "es_ES",
+      "category": "tv-show",
+      "file": "es-camera-cafe.json"
+    },
+    {
+      "name": "fr-kaamelott",
+      "displayName": "Kaamelott",
+      "language": "fr_FR",
+      "category": "tv-show",
+      "file": "fr-kaamelott.json"
+    },
+    {
+      "name": "idiot",
+      "displayName": "Idiot",
+      "language": "en_GB",
+      "category": "original",
+      "file": "idiot.json"
+    },
+    {
+      "name": "in-hera-pheri",
+      "displayName": "Hera Pheri",
+      "language": "hi_IN",
+      "category": "movie",
+      "file": "in-hera-pheri.json"
+    },
+    {
+      "name": "jiskefet",
+      "displayName": "Jiskefet",
+      "language": "nl_NL",
+      "category": "tv-show",
+      "file": "jiskefet.json"
+    },
+    {
+      "name": "jp-gaki-no-tsukai",
+      "displayName": "Gaki no Tsukai",
+      "language": "ja_JP",
+      "category": "tv-show",
+      "file": "jp-gaki-no-tsukai.json"
+    },
+    {
+      "name": "kr-infinite-challenge",
+      "displayName": "Infinite Challenge",
+      "language": "ko_KR",
+      "category": "tv-show",
+      "file": "kr-infinite-challenge.json"
+    },
+    {
+      "name": "multi-lul",
+      "displayName": "Multi Lansen Lansen Lul",
+      "language": "nl_NL",
+      "category": "tv-show",
+      "file": "multi-lul.json"
+    },
+    {
+      "name": "rundfunk",
+      "displayName": "Rundfunk",
+      "language": "nl_NL",
+      "category": "tv-show",
+      "file": "rundfunk.json"
+    },
+    {
+      "name": "telekids",
+      "displayName": "Telekids",
+      "language": "nl_NL",
+      "category": "tv-show",
+      "file": "telekids.json"
+    },
+    {
+      "name": "uk-peep-show",
+      "displayName": "Peep Show",
+      "language": "en_GB",
+      "category": "tv-show",
+      "file": "uk-peep-show.json"
+    },
+    {
+      "name": "us-billie-eilish",
+      "displayName": "Billie Eilish",
+      "language": "en_US",
+      "category": "music",
+      "file": "us-billie-eilish.json"
+    },
+    {
+      "name": "us-breaking-bad",
+      "displayName": "Breaking Bad",
+      "language": "en_US",
+      "category": "tv-show",
+      "file": "us-breaking-bad.json"
+    },
+    {
+      "name": "us-portal",
+      "displayName": "Portal",
+      "language": "en_US",
+      "category": "game",
+      "file": "us-portal.json"
+    },
+    {
+      "name": "us-pulp-fiction",
+      "displayName": "Pulp Fiction",
+      "language": "en_US",
+      "category": "movie",
+      "file": "us-pulp-fiction.json"
+    },
+    {
+      "name": "us-snl",
+      "displayName": "Saturday Night Live",
+      "language": "en_US",
+      "category": "tv-show",
+      "file": "us-snl.json"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 {
   "$schema": "./schema.json",
   "name": "multi-lul",
+  "displayName": "Multi Lansen Lansen Lul",
+  "category": "tv-show",
   "description": "Jiskefet Multi-Lul reclamebureau spinner verbs",
   "author": "JJ",
   "github": "jurrejan",
