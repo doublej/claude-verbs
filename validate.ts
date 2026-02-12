@@ -1,39 +1,30 @@
 import Ajv from "ajv";
-import { readFileSync, readdirSync, statSync } from "node:fs";
-import { basename, join } from "node:path";
+import { readFileSync, readdirSync } from "node:fs";
+import { basename } from "node:path";
 
 const schema = JSON.parse(readFileSync("schema.json", "utf-8"));
 const ajv = new Ajv();
 const validate = ajv.compile(schema);
 let errors = 0;
 
-function walk(dir: string): void {
-	for (const entry of readdirSync(dir)) {
-		if (entry.startsWith("_")) continue;
-		const full = join(dir, entry);
-		if (statSync(full).isDirectory()) {
-			walk(full);
-			continue;
-		}
-		if (!entry.endsWith(".json")) continue;
-		const data = JSON.parse(readFileSync(full, "utf-8"));
-		if (!validate(data)) {
-			console.error("FAIL:", full, validate.errors);
-			errors++;
-		} else if (data.name !== basename(entry, ".json")) {
-			console.error(
-				`FAIL: ${full} — name "${data.name}" does not match filename`,
-			);
-			errors++;
-		} else {
-			console.log("OK:", full);
-		}
-	}
-}
+const skip = new Set(["schema.json", "_template.json", "index.json"]);
 
-for (const dir of readdirSync(".")) {
-	if (dir.startsWith("_") || dir.startsWith(".")) continue;
-	if (statSync(dir).isDirectory()) walk(dir);
+for (const entry of readdirSync(".")) {
+	if (entry.startsWith("_")) continue;
+	if (!entry.endsWith(".json")) continue;
+	if (skip.has(entry)) continue;
+	const data = JSON.parse(readFileSync(entry, "utf-8"));
+	if (!validate(data)) {
+		console.error("FAIL:", entry, validate.errors);
+		errors++;
+	} else if (data.name !== basename(entry, ".json")) {
+		console.error(
+			`FAIL: ${entry} — name "${data.name}" does not match filename`,
+		);
+		errors++;
+	} else {
+		console.log("OK:", entry);
+	}
 }
 
 if (errors > 0) {
