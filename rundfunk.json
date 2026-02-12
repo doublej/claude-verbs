@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema.json",
+  "$schema": "./schema.json",
   "name": "rundfunk",
   "description": "Dutch radio/TV studio chaos spinner verbs",
   "author": "JJ",

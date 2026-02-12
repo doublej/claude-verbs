@@ -1,10 +1,10 @@
 {
-  "$schema": "../schema.json",
+  "$schema": "./schema.json",
   "name": "us-snl",
   "description": "Saturday Night Live-style sketch spinner verbs",
   "author": "Codex",
   "github": "jurrejan",
-  "language": "en_GB",
+  "language": "en_US",
   "config": {
     "showTurnDuration": false,
     "spinnerVerbs": {

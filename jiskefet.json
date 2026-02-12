@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema.json",
+  "$schema": "./schema.json",
   "name": "jiskefet",
   "description": "Jiskefet-themed Dutch spinner verbs",
   "author": "JJ",

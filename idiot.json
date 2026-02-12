@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema.json",
+  "$schema": "./schema.json",
   "name": "idiot",
   "description": "Presidential idiot spinner verbs",
   "author": "Jurre-Jan Smit",
