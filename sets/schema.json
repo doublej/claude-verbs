@@ -44,9 +44,7 @@
     },
     "config": {
       "type": "object",
-      "required": [
-        "spinnerVerbs"
-      ],
+      "required": ["spinnerVerbs"],
       "additionalProperties": false,
       "properties": {
         "showTurnDuration": {
@@ -55,9 +53,7 @@
         },
         "spinnerVerbs": {
           "type": "object",
-          "required": [
-            "verbs"
-          ],
+          "required": ["verbs"],
           "additionalProperties": false,
           "properties": {
             "mode": {
