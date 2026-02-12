@@ -1,14 +1,20 @@
 {
   "$schema": "./schema.json",
-  "name": "your-set-name",
-  "description": "A short description of your theme",
+  "name": "my-theme-name",
+  "description": "A short description of your verb set theme",
   "author": "Your Name",
   "github": "your-github-username",
-  "language": "en_GB",
+  "language": "en_US",
   "config": {
     "spinnerVerbs": {
       "mode": "replace",
-      "verbs": ["I'm doing first thing", "I'm doing second thing"]
+      "verbs": [
+        "I conjure a spinning portal",
+        "I summon the ancient compiler",
+        "I chase down rogue electrons",
+        "I wrangle the tangled wires",
+        "I decode the secret message"
+      ]
     }
   }
 }

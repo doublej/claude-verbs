@@ -30,7 +30,7 @@
     },
     "language": {
       "type": "string",
-      "description": "Locale code matching URL format (e.g. en_GB, nl_NL)",
+      "description": "Locale code in xx_YY format. Currently used values: en_US, nl_NL",
       "pattern": "^[a-z]{2}_[A-Z]{2}$"
     },
     "config": {
