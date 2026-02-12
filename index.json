@@ -1,10 +1,26 @@
 [
   {
+    "name": "au-kath-and-kim",
+    "description": "Kath & Kim suburban satire spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "en_AU",
+    "verbCount": 50
+  },
+  {
     "name": "br-chaves",
     "description": "Chaves vecindad comedy spinner verbs",
     "author": "JJ",
     "github": "jurrejan",
     "language": "pt_BR",
+    "verbCount": 50
+  },
+  {
+    "name": "ca-letterkenny",
+    "description": "Letterkenny rural Ontario spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "en_CA",
     "verbCount": 50
   },
   {
@@ -16,11 +32,27 @@
     "verbCount": 50
   },
   {
+    "name": "es-camera-cafe",
+    "description": "Camera Café office break-room spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "es_ES",
+    "verbCount": 50
+  },
+  {
     "name": "fr-kaamelott",
     "description": "Kaamelott Arthurian comedy spinner verbs",
     "author": "JJ",
     "github": "jurrejan",
     "language": "fr_FR",
+    "verbCount": 50
+  },
+  {
+    "name": "in-hera-pheri",
+    "description": "Hera Pheri Bollywood comedy spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "hi_IN",
     "verbCount": 50
   },
   {
@@ -37,6 +69,14 @@
     "author": "JJ",
     "github": "jurrejan",
     "language": "ja_JP",
+    "verbCount": 50
+  },
+  {
+    "name": "kr-infinite-challenge",
+    "description": "Infinite Challenge variety show spinner verbs",
+    "author": "JJ",
+    "github": "jurrejan",
+    "language": "ko_KR",
     "verbCount": 50
   },
   {
