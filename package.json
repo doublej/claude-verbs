@@ -1,0 +1,8 @@
+{
+  "name": "claude-verbs",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}
