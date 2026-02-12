@@ -29,32 +29,32 @@ This repository is the only place to submit new verb sets.
     └── *.json           # Verb set files (flat, no subdirectories)
 ```
 
-Each set includes `language` (locale code), `displayName` (human-readable title), and `category` (`tv-show`, `movie`, `music`, `game`, or `original`).
+Each set includes `language` (locale code), `displayName` (human-readable title), and `category` (`entertainment`, `music`, `gaming`, `literature`, `science`, `tech`, `sport`, `culture`, or `original`).
 
 ## Sets
 
 | Name | Display Name | Language | Category |
 |------|-------------|----------|----------|
-| `au-kath-and-kim` | Kath & Kim | en_AU | tv-show |
-| `br-chaves` | Chaves | pt_BR | tv-show |
-| `ca-letterkenny` | Letterkenny | en_CA | tv-show |
-| `de-dinner-for-one` | Dinner for One | de_DE | tv-show |
-| `es-camera-cafe` | Camera Cafe | es_ES | tv-show |
-| `fr-kaamelott` | Kaamelott | fr_FR | tv-show |
+| `au-kath-and-kim` | Kath & Kim | en_AU | entertainment |
+| `br-chaves` | Chaves | pt_BR | entertainment |
+| `ca-letterkenny` | Letterkenny | en_CA | entertainment |
+| `de-dinner-for-one` | Dinner for One | de_DE | entertainment |
+| `es-camera-cafe` | Camera Cafe | es_ES | entertainment |
+| `fr-kaamelott` | Kaamelott | fr_FR | entertainment |
 | `idiot` | Idiot | en_GB | original |
-| `in-hera-pheri` | Hera Pheri | hi_IN | movie |
-| `jiskefet` | Jiskefet | nl_NL | tv-show |
-| `jp-gaki-no-tsukai` | Gaki no Tsukai | ja_JP | tv-show |
-| `kr-infinite-challenge` | Infinite Challenge | ko_KR | tv-show |
-| `multi-lul` | Multi Lansen Lansen Lul | nl_NL | tv-show |
-| `rundfunk` | Rundfunk | nl_NL | tv-show |
-| `telekids` | Telekids | nl_NL | tv-show |
-| `uk-peep-show` | Peep Show | en_GB | tv-show |
+| `in-hera-pheri` | Hera Pheri | hi_IN | entertainment |
+| `jiskefet` | Jiskefet | nl_NL | entertainment |
+| `jp-gaki-no-tsukai` | Gaki no Tsukai | ja_JP | entertainment |
+| `kr-infinite-challenge` | Infinite Challenge | ko_KR | entertainment |
+| `multi-lul` | Multi Lansen Lansen Lul | nl_NL | entertainment |
+| `rundfunk` | Rundfunk | nl_NL | entertainment |
+| `telekids` | Telekids | nl_NL | entertainment |
+| `uk-peep-show` | Peep Show | en_GB | entertainment |
 | `us-billie-eilish` | Billie Eilish | en_US | music |
-| `us-breaking-bad` | Breaking Bad | en_US | tv-show |
-| `us-portal` | Portal | en_US | game |
-| `us-pulp-fiction` | Pulp Fiction | en_US | movie |
-| `us-snl` | Saturday Night Live | en_US | tv-show |
+| `us-breaking-bad` | Breaking Bad | en_US | entertainment |
+| `us-portal` | Portal | en_US | gaming |
+| `us-pulp-fiction` | Pulp Fiction | en_US | entertainment |
+| `us-snl` | Saturday Night Live | en_US | entertainment |
 
 ## License
 

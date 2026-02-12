@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "us-pulp-fiction",
   "displayName": "Pulp Fiction",
-  "category": "movie",
+  "category": "entertainment",
   "description": "Pulp Fiction crime drama spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "es-camera-cafe",
   "displayName": "Cámera Café",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Camera Café office break-room spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

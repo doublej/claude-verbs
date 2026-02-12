@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "jiskefet",
   "displayName": "Jiskefet",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Jiskefet-themed Dutch spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

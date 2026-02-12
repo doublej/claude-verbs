@@ -9,7 +9,7 @@ Spinner verbs are the animated status messages shown in Claude Code while it thi
 
 ## What makes a good set?
 
-- **Exactly 50 verbs**
+- **15–100 verbs** (aim for 50)
 - **Thematically consistent**
 - **Short phrases** (2-6 words works best)
 - **Fun and creative**
@@ -40,7 +40,7 @@ Edit `sets/your-set-name.json`. The filename (without `.json`) must match the `n
   "$schema": "./schema.json",
   "name": "your-set-name",
   "displayName": "Your Set Name",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "A short description of your theme",
   "author": "Your Name",
   "github": "your-github-username",
@@ -58,10 +58,10 @@ Edit `sets/your-set-name.json`. The filename (without `.json`) must match the `n
 ```
 
 - `displayName`: human-readable title shown in listings
-- `category`: one of `tv-show`, `movie`, `music`, `game`, `original`
+- `category`: one of `entertainment`, `music`, `gaming`, `literature`, `science`, `tech`, `sport`, `culture`, `original`
 - `language`: locale code like `en_US`, `nl_NL`, `de_DE`
 
-Each set must contain exactly 50 unique verbs.
+Each set must contain 15–100 unique verbs (aim for 50).
 
 ### 4. Prepare your author manifest (for PR description)
 
@@ -119,10 +119,10 @@ CI validates your set automatically.
 
 - Filename must match the `name` field (kebab-case, lowercase)
 - `displayName` must be a human-readable title
-- `category` must be one of: `tv-show`, `movie`, `music`, `game`, `original`
+- `category` must be one of: `entertainment`, `music`, `gaming`, `literature`, `science`, `tech`, `sport`, `culture`, `original`
 - `github` must be your GitHub username (for attribution)
 - `language` must be a valid locale code (example: `en_US`, `nl_NL`)
-- Exactly 50 unique verbs per set (no duplicates)
+- 15–100 unique verbs per set (no duplicates, aim for 50)
 - Set file must live in `sets/`
 - Must pass `sets/schema.json` validation
 - Include an author manifest in the PR description

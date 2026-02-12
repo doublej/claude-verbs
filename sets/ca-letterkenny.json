@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "ca-letterkenny",
   "displayName": "Letterkenny",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Letterkenny rural Ontario spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

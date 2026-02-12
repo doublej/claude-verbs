@@ -27,8 +27,8 @@ for (const entry of readdirSync(SETS_DIR)) {
 	} else {
 		const verbs: string[] = data.config?.spinnerVerbs?.verbs ?? [];
 		const dupes = verbs.filter((v: string, i: number) => verbs.indexOf(v) !== i);
-		if (verbs.length !== 50) {
-			console.error(`FAIL: ${filePath} — expected 50 verbs, got ${verbs.length}`);
+		if (verbs.length < 15 || verbs.length > 100) {
+			console.error(`FAIL: ${filePath} — expected 15–100 verbs, got ${verbs.length}`);
 			errors++;
 		} else if (dupes.length > 0) {
 			console.error(`FAIL: ${filePath} — duplicate verbs: ${dupes.join(", ")}`);

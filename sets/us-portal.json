@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "us-portal",
   "displayName": "Portal",
-  "category": "game",
+  "category": "gaming",
   "description": "Portal puzzle adventure spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "au-kath-and-kim",
   "displayName": "Kath & Kim",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Kath & Kim suburban satire spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

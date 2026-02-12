@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "uk-peep-show",
   "displayName": "Peep Show",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Peep Show inner monologue spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "fr-kaamelott",
   "displayName": "Kaamelott",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Kaamelott Arthurian comedy spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

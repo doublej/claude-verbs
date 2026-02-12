@@ -75,8 +75,8 @@
                 "type": "string",
                 "minLength": 1
               },
-              "minItems": 50,
-              "maxItems": 50,
+              "minItems": 15,
+              "maxItems": 100,
               "uniqueItems": true,
               "description": "List of spinner verb strings"
             }
@@ -91,10 +91,14 @@
     "category": {
       "type": "string",
       "enum": [
-        "tv-show",
-        "movie",
+        "entertainment",
         "music",
-        "game",
+        "gaming",
+        "literature",
+        "science",
+        "tech",
+        "sport",
+        "culture",
         "original"
       ],
       "description": "Content category"

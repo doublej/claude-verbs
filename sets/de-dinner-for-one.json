@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "de-dinner-for-one",
   "displayName": "Dinner for One",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Dinner for One New Year's Eve sketch spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "us-breaking-bad",
   "displayName": "Breaking Bad",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Breaking Bad chemistry drama spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

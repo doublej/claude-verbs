@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "us-snl",
   "displayName": "Saturday Night Live",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Saturday Night Live-style sketch spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

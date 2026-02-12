@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "br-chaves",
   "displayName": "Chaves",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Chaves vecindad comedy spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

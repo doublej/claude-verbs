@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "kr-infinite-challenge",
   "displayName": "Infinite Challenge",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Infinite Challenge variety show spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "name": "jp-gaki-no-tsukai",
   "displayName": "Gaki no Tsukai",
-  "category": "tv-show",
+  "category": "entertainment",
   "description": "Gaki no Tsukai batsu game spinner verbs",
   "author": "JJ",
   "github": "jurrejan",

@@ -4,42 +4,42 @@
       "name": "au-kath-and-kim",
       "displayName": "Kath & Kim",
       "language": "en_AU",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "au-kath-and-kim.json"
     },
     {
       "name": "br-chaves",
       "displayName": "Chaves",
       "language": "pt_BR",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "br-chaves.json"
     },
     {
       "name": "ca-letterkenny",
       "displayName": "Letterkenny",
       "language": "en_CA",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "ca-letterkenny.json"
     },
     {
       "name": "de-dinner-for-one",
       "displayName": "Dinner for One",
       "language": "de_DE",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "de-dinner-for-one.json"
     },
     {
       "name": "es-camera-cafe",
       "displayName": "Cámera Café",
       "language": "es_ES",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "es-camera-cafe.json"
     },
     {
       "name": "fr-kaamelott",
       "displayName": "Kaamelott",
       "language": "fr_FR",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "fr-kaamelott.json"
     },
     {
@@ -53,56 +53,56 @@
       "name": "in-hera-pheri",
       "displayName": "Hera Pheri",
       "language": "hi_IN",
-      "category": "movie",
+      "category": "entertainment",
       "file": "in-hera-pheri.json"
     },
     {
       "name": "jiskefet",
       "displayName": "Jiskefet",
       "language": "nl_NL",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "jiskefet.json"
     },
     {
       "name": "jp-gaki-no-tsukai",
       "displayName": "Gaki no Tsukai",
       "language": "ja_JP",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "jp-gaki-no-tsukai.json"
     },
     {
       "name": "kr-infinite-challenge",
       "displayName": "Infinite Challenge",
       "language": "ko_KR",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "kr-infinite-challenge.json"
     },
     {
       "name": "multi-lul",
       "displayName": "Multi Lansen Lansen Lul",
       "language": "nl_NL",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "multi-lul.json"
     },
     {
       "name": "rundfunk",
       "displayName": "Rundfunk",
       "language": "nl_NL",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "rundfunk.json"
     },
     {
       "name": "telekids",
       "displayName": "Telekids",
       "language": "nl_NL",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "telekids.json"
     },
     {
       "name": "uk-peep-show",
       "displayName": "Peep Show",
       "language": "en_GB",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "uk-peep-show.json"
     },
     {
@@ -116,28 +116,28 @@
       "name": "us-breaking-bad",
       "displayName": "Breaking Bad",
       "language": "en_US",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "us-breaking-bad.json"
     },
     {
       "name": "us-portal",
       "displayName": "Portal",
       "language": "en_US",
-      "category": "game",
+      "category": "gaming",
       "file": "us-portal.json"
     },
     {
       "name": "us-pulp-fiction",
       "displayName": "Pulp Fiction",
       "language": "en_US",
-      "category": "movie",
+      "category": "entertainment",
       "file": "us-pulp-fiction.json"
     },
     {
       "name": "us-snl",
       "displayName": "Saturday Night Live",
       "language": "en_US",
-      "category": "tv-show",
+      "category": "entertainment",
       "file": "us-snl.json"
     }
   ]
