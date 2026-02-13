@@ -1,0 +1,31 @@
+{
+  "$schema": "./schema.json",
+  "name": "nl-mocro-maffia",
+  "displayName": "Mocro Maffia",
+  "category": "entertainment",
+  "description": "Mocro Maffia spinner verbs",
+  "author": "David",
+  "github": "davidvandriel",
+  "language": "nl_NL",
+  "config": {
+    "spinnerVerbs": {
+      "verbs": [
+        "Stap uit die k*nker auto",
+        "Heeft er iemand op gepoept, ouleh",
+        "Ik begraaf al hun k*nker moeders",
+        "Wachtwoord is daleyblind kleine letters aan elkaar",
+        "Eh vraag aan één van die gasten of ze je kontje leeglikken",
+        "Kom je uit 1930 k*nkerzwerver? Annie M.G. Schmidt",
+        "Geef me pepsi ouleh",
+        "Ewa Komtgoed",
+        "Jullie hebben de verkeerde wakker gemaakt",
+        "Ben je mongool, wil je kogels eten?",
+        "Ik ben de straat, broer",
+        "Niemand praat, niemand weet iets",
+        "Familie is alles wat je hebt",
+        "De stad slaapt nooit",
+        "Vertrouw niemand"
+      ]
+    }
+  }
+}
