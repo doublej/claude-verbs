@@ -17,7 +17,6 @@ This repository is the only place to submit new verb sets.
 
 - Submit via pull request to [doublej/claude-verbs](https://github.com/doublej/claude-verbs)
 - Follow [CONTRIBUTING.md](CONTRIBUTING.md)
-- Include the author manifest in your PR description (GitHub profile, top 3 projects, generic description)
 
 ## Structure
 
@@ -39,14 +38,15 @@ Each set includes `language` (locale code), `displayName` (human-readable title)
 | `br-chaves` | Chaves | pt_BR | entertainment |
 | `ca-letterkenny` | Letterkenny | en_CA | entertainment |
 | `de-dinner-for-one` | Dinner for One | de_DE | entertainment |
-| `es-camera-cafe` | Camera Cafe | es_ES | entertainment |
+| `en-duke-nukem-3d` | Duke Nukem 3D | en_US | gaming |
+| `es-camera-cafe` | Cámera Café | es_ES | entertainment |
 | `fr-kaamelott` | Kaamelott | fr_FR | entertainment |
 | `idiot` | Idiot | en_GB | original |
 | `in-hera-pheri` | Hera Pheri | hi_IN | entertainment |
 | `jiskefet` | Jiskefet | nl_NL | entertainment |
 | `jp-gaki-no-tsukai` | Gaki no Tsukai | ja_JP | entertainment |
 | `kr-infinite-challenge` | Infinite Challenge | ko_KR | entertainment |
-| `multi-lul` | Multi Lansen Lansen Lul | nl_NL | entertainment |
+| `multi-lul` | Jiskefet: Multi-lul | nl_NL | entertainment |
 | `rundfunk` | Rundfunk | nl_NL | entertainment |
 | `telekids` | Telekids | nl_NL | entertainment |
 | `uk-peep-show` | Peep Show | en_GB | entertainment |
@@ -55,7 +55,9 @@ Each set includes `language` (locale code), `displayName` (human-readable title)
 | `us-breaking-bad` | Breaking Bad | en_US | entertainment |
 | `us-portal` | Portal | en_US | gaming |
 | `us-pulp-fiction` | Pulp Fiction | en_US | entertainment |
+| `us-seinfeld` | Seinfeld | en_US | entertainment |
 | `us-snl` | Saturday Night Live | en_US | entertainment |
+| `us-star-wars` | Star Wars | en_US | entertainment |
 
 ## License
 
