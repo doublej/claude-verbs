@@ -67,7 +67,7 @@ jobs:
       - run: bun install
 
       - name: Fetch authors
-        run: bun run fetch-authors
+        run: bun run src/lib/data/authors.ts
         env:
           GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
 
