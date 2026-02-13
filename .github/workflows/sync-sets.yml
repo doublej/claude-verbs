@@ -10,15 +10,6 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - repo: doublej/claude-verbs-cli
-            dest: sets
-            extras: schema.json _template.json
-          - repo: doublej/claude-verbs-website
-            dest: src/lib/data/sets
-            extras: schema.json
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -28,20 +19,17 @@ jobs:
       - name: Checkout target
         uses: actions/checkout@v4
         with:
-          repository: ${{ matrix.repo }}
+          repository: doublej/claude-verbs-cli
           token: ${{ secrets.SYNC_TOKEN }}
           path: target
 
       - name: Sync sets
         run: |
-          rm -rf target/${{ matrix.dest }}/*.json
+          rm -rf target/sets/*.json
           for f in source/sets/*.json; do
             name=$(basename "$f")
-            case "$name" in schema.json|_template.json|index.json) continue;; esac
-            cp "$f" target/${{ matrix.dest }}/
-          done
-          for f in ${{ matrix.extras }}; do
-            cp source/sets/$f target/${{ matrix.dest }}/$f
+            case "$name" in index.json) continue;; esac
+            cp "$f" target/sets/
           done
 
       - name: Create PR
@@ -57,3 +45,37 @@ jobs:
 
             Triggered by: ${{ github.event.head_commit.message }}
           commit-message: 'sync: update sets from community repo'
+
+  sync-website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+        with:
+          repository: doublej/claude-verbs-website
+          token: ${{ secrets.SYNC_TOKEN }}
+          submodules: true
+
+      - name: Update submodule to latest main
+        run: |
+          cd src/lib/data/claude-verbs
+          git fetch origin main
+          git checkout origin/main
+
+      - name: Install dependencies
+        uses: oven-sh/setup-bun@v2
+      - run: bun install
+
+      - name: Fetch authors
+        run: bun run fetch-authors
+        env:
+          GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
+
+      - name: Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && exit 0
+          git commit -m "sync: update claude-verbs submodule"
+          git push
