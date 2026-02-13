@@ -94,6 +94,40 @@
         "original"
       ],
       "description": "Content category"
+    },
+    "authorInfo": {
+      "type": "object",
+      "description": "Optional author info for the website. If omitted, data is fetched from the GitHub API.",
+      "additionalProperties": false,
+      "required": ["description", "projects"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "One-sentence bio or description"
+        },
+        "projects": {
+          "type": "array",
+          "description": "Top 3 projects to showcase",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["name", "url", "description"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
