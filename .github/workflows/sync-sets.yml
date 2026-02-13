@@ -10,15 +10,6 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - repo: doublej/claude-verbs-cli
-            dest: sets
-            extras: schema.json _template.json
-          - repo: doublej/claude-verbs-website
-            dest: src/lib/data/sets
-            extras: schema.json
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -28,20 +19,17 @@ jobs:
       - name: Checkout target
         uses: actions/checkout@v4
         with:
-          repository: ${{ matrix.repo }}
+          repository: doublej/claude-verbs-cli
           token: ${{ secrets.SYNC_TOKEN }}
           path: target
 
       - name: Sync sets
         run: |
-          rm -rf target/${{ matrix.dest }}/*.json
+          rm -rf target/sets/*.json
           for f in source/sets/*.json; do
             name=$(basename "$f")
-            case "$name" in schema.json|_template.json|index.json) continue;; esac
-            cp "$f" target/${{ matrix.dest }}/
-          done
-          for f in ${{ matrix.extras }}; do
-            cp source/sets/$f target/${{ matrix.dest }}/$f
+            case "$name" in index.json) continue;; esac
+            cp "$f" target/sets/
           done
 
       - name: Create PR
