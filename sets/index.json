@@ -146,6 +146,13 @@
       "language": "en_US",
       "category": "entertainment",
       "file": "us-snl.json"
+    },
+    {
+      "name": "us-star-wars",
+      "displayName": "Star Wars",
+      "language": "en_US",
+      "category": "entertainment",
+      "file": "us-star-wars.json"
     }
   ]
 }
