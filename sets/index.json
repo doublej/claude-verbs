@@ -141,6 +141,13 @@
       "file": "us-pulp-fiction.json"
     },
     {
+      "name": "us-seinfeld",
+      "displayName": "Seinfeld",
+      "language": "en_US",
+      "category": "entertainment",
+      "file": "us-seinfeld.json"
+    },
+    {
       "name": "us-snl",
       "displayName": "Saturday Night Live",
       "language": "en_US",
