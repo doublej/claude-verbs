@@ -63,39 +63,32 @@ Edit `sets/your-set-name.json`. The filename (without `.json`) must match the `n
 
 Each set must contain 15–100 unique verbs (aim for 50).
 
-### 4. Prepare your author manifest (for PR description)
+### 4. Add author info (optional)
 
-Include this in your PR description under a heading like `## Author Manifest`:
+Add an `authorInfo` object to your set file to control how you appear on [claudeverbs.com](https://claudeverbs.com). If omitted, your profile is pulled from the GitHub API automatically.
 
 ```json
 {
-  "githubProfile": "https://github.com/your-github-username",
-  "genericDescription": "Independent builder working on dev tools and web apps.",
-  "topProjects": [
-    {
-      "name": "project-one",
-      "url": "https://github.com/your-github-username/project-one",
-      "description": "One sentence description."
-    },
-    {
-      "name": "project-two",
-      "url": "https://github.com/your-github-username/project-two",
-      "description": "One sentence description."
-    },
-    {
-      "name": "project-three",
-      "url": "https://github.com/your-github-username/project-three",
-      "description": "One sentence description."
-    }
-  ]
+  "authorInfo": {
+    "description": "One-sentence bio about yourself.",
+    "projects": [
+      {
+        "name": "project-one",
+        "url": "https://github.com/your-username/project-one",
+        "description": "One sentence description."
+      },
+      {
+        "name": "project-two",
+        "url": "https://github.com/your-username/project-two",
+        "description": "One sentence description."
+      }
+    ]
+  }
 }
 ```
 
-The manifest should include:
-
-- Your GitHub profile URL
-- Your generic one-sentence bio/description
-- Your top 3 projects with links and short descriptions
+- `description`: a one-sentence bio
+- `projects`: 1–3 projects to showcase (name, URL, short description)
 
 ### 5. Validate
 
@@ -125,7 +118,6 @@ CI validates your set automatically.
 - 15–100 unique verbs per set (no duplicates, aim for 50)
 - Set file must live in `sets/`
 - Must pass `sets/schema.json` validation
-- Include an author manifest in the PR description
 - Keep content respectful; offensive sets are rejected
 - `mode` should be `"replace"` or `"append"`
 
