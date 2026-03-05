@@ -15,6 +15,13 @@
       "file": "br-chaves.json"
     },
     {
+      "name": "claude-vs-openai-war-deal",
+      "displayName": "Claude vs OpenAI War Deal",
+      "language": "en_GB",
+      "category": "tech",
+      "file": "claude-vs-openai-war-deal.json"
+    },
+    {
       "name": "ca-letterkenny",
       "displayName": "Letterkenny",
       "language": "en_CA",

@@ -78,4 +78,5 @@ jobs:
           git add -A
           git diff --staged --quiet && exit 0
           git commit -m "sync: update claude-verbs submodule"
+          git pull --rebase
           git push
