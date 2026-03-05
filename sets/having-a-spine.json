@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "name": "having-a-spine",
-  "displayName": "Having a Spine",
+  "displayName": "Having a spine",
   "category": "tech",
   "description": "Red lines and OpenAI shade",
   "author": "JJ",
