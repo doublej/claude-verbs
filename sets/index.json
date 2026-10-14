@@ -106,6 +106,13 @@
       "file": "telekids.json"
     },
     {
+      "name": "tr-muhabbet",
+      "displayName": "Muhabbet",
+      "language": "tr_TR",
+      "category": "culture",
+      "file": "tr-muhabbet.json"
+    },
+    {
       "name": "uk-peep-show",
       "displayName": "Peep Show",
       "language": "en_GB",

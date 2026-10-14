@@ -49,6 +49,7 @@ Each set includes `language` (locale code), `displayName` (human-readable title)
 | `multi-lul` | Jiskefet: Multi-lul | nl_NL | entertainment |
 | `rundfunk` | Rundfunk | nl_NL | entertainment |
 | `telekids` | Telekids | nl_NL | entertainment |
+| `tr-muhabbet` | Muhabbet | tr_TR | culture |
 | `uk-peep-show` | Peep Show | en_GB | entertainment |
 | `us-billie-eilish` | Billie Eilish | en_US | music |
 | `us-the-office` | The Office | en_US | entertainment |
